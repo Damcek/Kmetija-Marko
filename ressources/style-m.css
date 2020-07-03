@@ -1,0 +1,624 @@
+/* ---------------------------------------------------------
+    BASIC SETUP /*čšžČŠŽ*
+---------------------------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box,;
+    box-sizing: border-box,
+}
+
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.clearfix {zoom: 1}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance:textfield;
+}
+/* ---------------------------------------------------------
+   REUSABLE COMPONENTS
+---------------------------------------------*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto; /*je enako- margin: 0 auto 0 auto; */ 
+}
+.row4 {
+    max-width: 1140px;
+    margin: 0 auto; /*je enako- margin: 0 auto 0 auto; */ 
+}
+
+.row2 {
+    max-width: 900px;
+    margin: 0 auto; /*je enako- margin: 0 auto 0 auto; */ 
+    
+}
+
+.row-head{
+   
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 110%;
+    margin: 30px 0 5px 0;
+    color: #000;
+    
+}
+
+
+h2 {
+    font-size: 170%;
+    font-weight: 100;
+    color: #000;
+    padding: 10px 0;
+    letter-spacing: 1px;
+}
+
+
+h4 {
+    margin: 10px 10px 10px 0;
+    padding-left: 10px;
+    width: 42%;
+    float: left
+}
+h4:last-of-type{
+    text-align: right;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+p {
+    color: #555;
+    font-size: 90%;
+    padding-bottom: 2px
+}
+
+li {
+    list-style: none;
+}
+
+/* ---------------------------------------------------------
+   Header
+---------------------------------------------*/
+.logo {
+    text-align: center; 
+    margin-bottom: 10px
+}
+
+
+
+.logo img {
+    width: 180px;
+   
+}
+
+
+.nav {
+    text-align: center; 
+}
+
+.nav li {
+    display: inline-block;
+    margin: 10px 10px 20px 10px;
+    padding-bottom: 2px;
+    
+}
+
+a:hover,
+a:active {
+    color: #70c058;
+    border-bottom: 1px solid #70c058;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+    
+}
+
+
+h1 {
+    color: #e7ff98;
+    text-align: center;
+    font-size: 250%;
+    background-color: #70c058;
+    border-radius: 10px;
+    padding: 5px;
+        
+        
+}
+
+/**********************
+//MAIN
+********************/
+
+.logo-a:hover,
+.logo-a:active {
+    border: none !important;
+}
+
+
+
+
+.main-img-div {
+    text-align: center; 
+}
+.main-img{
+    width: 900px;
+    padding: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    
+}
+
+footer {
+
+    background-color: #70c058;
+    margin-top: 30px;
+    padding:10px;
+    border-top: 2px solid #dfdfdf;
+    
+}
+
+footer li {
+    display: inline-block;
+    margin: 10px;
+    padding-bottom: 2px;
+}
+
+footer nav {
+    text-align: center;
+}
+
+footer a:hover,
+footer a:active {
+    color: #e7ff98;
+    border-bottom: 1px solid #e7ff98;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+    
+}
+
+.naslov {
+    text-align: center;
+    padding: 5px;
+    float: right
+}
+
+.naslov p {
+    padding: 3px
+}
+
+.icons {
+float: right;
+    text-align: right;
+    font-size: 130%
+    
+}
+
+.icon-a:hover,
+.icon-a:active {
+    border: none !important;
+}
+
+.active {
+    color: #70c058 !important
+}
+
+/**********************
+//KONTAKT
+********************/
+
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+    border: 2px solid #70c058;
+    background-color: #70c058;
+    border-radius: 5px;
+       }
+.kontakt {
+    float: left;
+}
+
+
+/**********************
+//O KMETIJI
+********************/
+
+
+
+
+
+
+
+/**********************
+//PONUDBA
+********************/
+
+
+.store-img {
+    width: 80%;
+    height: 130px;
+    margin: 20px;
+}
+.opis-trgovina{
+     margin-bottom: 20px   
+}
+.store {
+    float: left;
+    margin-bottom: 20px;
+
+
+}
+.kosarica {
+    float: right;
+    border-left: 2px solid #70c058;
+    
+}
+
+.cena {
+    color: #000;
+    font-size: 140%
+}
+
+.kosarica h2 {
+    padding-left: 10px;
+}
+.item:first-child { border-top: 1px solid #e7e7e7; }
+.item:nth-child(even) { background-color: #f7f7f7; margin-left: 1px }
+
+#income-0{border-top: 1px solid #e7e7e7;}
+#income-1{background-color: #f7f7f7; margin-left: 1px}
+
+.item {
+    padding: 13px;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.item__description {
+    float: left;
+    padding-right: 5px;
+    width: 50%;
+}
+
+.item__value {
+    float: right;
+    transition: transform 0.3s;
+    padding-left: 5px;
+    width: 50px;
+    text-align: right;
+}
+
+.item__kol {
+    box-sizing: border-box;
+    float: left;
+    transition: transform 0.3s;
+    padding: 2px 0px;
+    border: 2px solid #e7e7e7;
+    width: 30px;
+    text-align: center;
+    
+}
+
+.item__kol:focus {
+    border: 2px solid #70c058;
+}
+.item__delete {
+    float: right;
+}
+
+.item__delete--btn {
+    color: #555;
+    font-size: 22px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1;
+    display: none;
+}
+
+.item__delete--btn:hover,
+.item__delete--btn:active {
+    color: #70c058;
+    
+}
+
+.hidden {
+    display: none;
+}
+
+.item__delete--btn:focus { outline: none; }
+.item__delete--btn:active { transform: translateY(2px); }
+
+.item:hover .item__delete--btn { display: block; }
+.item:hover .item__value { transform: translateX(-2px); }
+
+.skupaj {
+    width: 100%;
+}
+
+.na-blagajno-div {
+    text-align: center;
+    margin-top: 50px;
+}
+.na-blagajno {
+    color: #555;
+    font-weight: 300;
+    font-size: 100%;
+    background-color: #e7ff98;
+    padding: 10px;
+    border-radius: 17px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 10px;
+    border: 1.5px solid #70c058;
+   
+}
+.na-blagajno2 {
+     margin-left: 60px;
+}
+
+.na-blagajno-div a:hover,
+.na-blagajno-div a:active{
+    background-color: #70c058;
+    color: #e7ff98;
+    border-bottom: none !important;
+}
+
+.kg {
+    width: 20px;
+    text-align: center;
+    padding: 2px;
+    margin-left: 10px;
+}
+
+.kg-span {
+    padding: 5px;
+    font-size: 120%;
+}
+/**********************
+//BLAGAJNA
+********************/
+
+.cart {
+    float: right;
+    padding: 2px;
+    padding-top: 5px;
+}
+
+.cart ion-icon {
+    font-size: 120%;
+    padding-top: 2px;
+    position: absolute;
+}
+.cart a:hover,
+.cart a:active {
+    border-bottom: none !important;
+}
+.skupaj1 {
+    font-weight: bold;
+    font-size: 120%;
+    margin: 10px;
+    text-align: right;
+    float: right;
+    width: 880px;
+    margin-bottom: 30px
+    
+}
+.skupaj2 {
+    font-weight: bold;
+    font-size: 120%;
+    margin: 10px;
+    text-align: right;
+    float: right;
+    width: 97%;
+    margin-bottom: 30px;
+    
+}
+
+.csnik {
+    float: left;
+}
+
+.span {
+    
+    width: 32%;
+    float: left; 
+    padding-bottom: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 120%;
+    border-bottom: 2px solid #e7e7e7
+    
+    
+}
+
+.span1 {
+padding-left: 10px;
+    
+}
+
+.span2 {
+    padding-left: 20px;
+    text-align: center;
+}
+
+.span3 {
+    
+    text-align: right;
+}
+
+.potrdi {
+    margin: 20px;
+}
+
+/**********************
+//POPUP
+********************/
+
+.popup {
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+
+  display: none;
+  width: 300px;
+  background-color: #fff;
+  color: #555;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -160px;
+  border: 2px solid #d8d8d8;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+    margin-top: 2px;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #d8d8d8 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+ .popup .show {
+  display: block;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+.popup .show2 {
+  display: none;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.x {
+    padding: 2px;
+    border: 2px solid #d8d8d8;
+    border-radius: 5px;
+    color: #d8d8d8;
+    
+}
+
+.x:hover,
+.x:active {
+    color: #70c058;
+    font-weight: bold;
+    border: 2px solid #70c058;
+    
+}
+
+.nav1 {
+    border-top: 2px solid #70c058;
+    padding: 10px 0;
+}
+
+/**********************
+//CHECKOUT
+********************/
+.logo1 {
+    margin-top: 20px;
+}
+.logo1 img {
+    width: 100px;
+}
+
+.checkout {
+    float: left;
+    xdisplay: inline-block;
+    width: 49%;
+    height: auto;
+    
+}
+
+.footer-checkout {
+    margin-top: 600px;
+}
+
+#email, #name, #surname, #phone, #adress, #post, #city {
+    width: 70%;
+    padding: 5px 10px;
+    margin: 5px 0; 
+    font-size: 90%;
+    border-radius: 5px;
+}
+
+.kontakt {
+    margin: 10px 0;
+    font-size: 120%;
+}
+
+.na-blagajno-div1{
+    text-align: center;
+    margin-left: -100px;
+}
+
+
+.na-blagajno-div1 input:hover,
+.na-blagajno-div1 input:active{
+    background-color: #70c058;
+    color: #e7ff98;
+    border-bottom: none !important;
+}
+
+
+
+

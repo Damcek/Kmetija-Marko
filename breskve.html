@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="ressources/style-m.css">
+    <link rel="stylesheet" type="text/css" href="ressources/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="ressources/grid.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+       <div class="row-head">
+         <div class="logo">
+                    <div class="cart"><a href="blagajna.html"><span class="evri">€150.25</span><ion-icon name="cart"></ion-icon></a></div>
+             <a class="logo-a" href="home.html"><img src="ressources/logo.jpg"></a>
+         </div>
+            <h1>Družinska kmetija Marko</h1>         
+             <nav class="nav">
+              
+                  <li ><a href="home.html">Domov</a></li>
+                  <span>/</span>
+                  <li><a href="o-kmetiji.html">O kmetiji</a></li>
+                  <span>/</span>
+                  <li><a class="active" href="ponudba.html">Ponudba</a></li>
+                  <span>/</span>
+                  <li><a href="kontakt.html">Kontakt</a></li>
+              
+          </nav>
+       </div>
+   </header>
+   
+   <section>
+    
+     <div class="row">
+                   <nav class="nav nav1">
+              
+                  <li ><a href="ponudba.html">Vsa</a></li>
+                  <span>/</span>
+                  <li><a href="jabolka.html">Jabolka</a></li>
+                  <span>/</span>
+                  <li><a href="hruske.html">Hruške</a></li>
+                  <span>/</span>
+                  <li><a class="active" href="breskve.html">Breskve</a></li>
+                  <span>/</span>
+                  <li><a href="zelenjava.html">Zelenjava</a></li>                  
+                  <span>/</span>
+                  <li><a href="ostalo.html">Ostalo</a></li>
+              
+          </nav>
+       
+        <div class="span-1-of-5 kosarica">
+             <h2>Košarica:</h2>
+                        
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Hruske</div>
+                            <div class="right clearfix">
+                                <div class="item__kol">2</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn">
+                                        <ion-icon name="close"></ion-icon>
+                                    </button>
+                                </div>
+                                <div class="item__value">€10.25</div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Breskve</div>
+                            <div class="right clearfix">
+                                <div class="item__kol">1</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn"><ion-icon name="close"></ion-icon></button>
+                                </div>
+                                <div class="item__value">€15.00</div>
+
+                            </div>
+                        </div>
+                                         
+                        <div class="item clearfix" id="income-0">
+                            <div class="item__description">Jabolka</div>
+                            <div class="right clearfix">
+                               <div class="item__kol">20</div>
+                                <div class="item__delete">
+                                    <button class="item__delete--btn">
+                                        <ion-icon name="close"></ion-icon>
+                                    </button>
+                                </div>
+                                <div class="item__value">€110.25</div>
+
+                            </div>
+                        </div>
+                        
+                        <div class="item clearfix" id="income-1">
+                            <div class="item__description">Zganje</div>
+                            <div class="right clearfix">
+                               <div class="item__kol">2</div>
+                                    <div class="item__delete">
+                                    <button class="item__delete--btn"><ion-icon name="close"></ion-icon></button>
+                                </div>
+                                <div class="item__value">€15.00</div>
+
+                            </div>
+                        </div>
+                        <div class="skupaj">
+                            <h4>skupaj</h4>
+                            <h4>€154.23</h4>
+                        </div>
+                        <div class="na-blagajno-div"><a class="na-blagajno" href="blagajna.html">na blagajno</a></div>
+                        
+                        
+        </div>
+        <div class="span-4-of-5">
+             
+            <div class="span-1-of-4 store popup">  
+                <span class="popuptext" id="myPopup10" >
+                <h2>Breskev redhaven</h2>
+                        <div class="kg-span"><span>Kolicina v kg:</span><input class="kg" type="number" id="kolicina" value="1"></div>
+                        <div class="kg-span">Cena: <span>€6.00</span></div>
+                        <div class="potrdi"><a class="na-blagajno" href="#">potrdi</a></div>
+                        <div class="x-div"> <ion-icon  class="x" onclick="closeForm10()" name="close"></ion-icon></div>
+                        
+                </span>
+                <div  onclick="openForm10()">
+                 <img class="store-img" src="ressources/10.jpg">
+                 <p class="sorta">Breskev redhaven</p>
+                 <p class="cena">€1.20</p>
+                 <p class="zaloga">Zaloga</p>
+                 </div>  
+             </div>
+            <div class="span-1-of-4 store popup">  
+                  <span class="popuptext" id="myPopup11" >
+                        <h2>Breskev veteran</h2>                     
+                        <div class="kg-span"><span>Kolicina v kg:</span><input class="kg" type="number" id="kolicina" value="1"></div>
+                        <div class="kg-span">Cena: <span>€6.00</span></div>
+                        <div class="potrdi"><a class="na-blagajno" href="#">potrdi</a></div>
+                        <div class="x-div"> <ion-icon  class="x" onclick="closeForm11()" name="close"></ion-icon></div>
+                        
+                  </span>
+                    <div onclick="openForm11()">         
+                         <img class="store-img" src="ressources/11.jpg">                 
+                         <p class="sorta">Breskev veteran</p>
+                         <p class="cena">€1.20</p>
+                         <p class="zaloga">Zaloga</p>
+                     </div> 
+             </div>
+             
+            <div class="span-1-of-4 store popup">  
+                <span class="popuptext" id="myPopup12" >
+                <h2>Breskev maria-bianca</h2>
+                        <div class="kg-span"><span>Kolicina v kg:</span><input class="kg" type="number" id="kolicina" value="1"></div>
+                        <div class="kg-span">Cena: <span>€6.00</span></div>
+                        <div class="potrdi"><a class="na-blagajno" href="#">potrdi</a></div>
+                        <div class="x-div"> <ion-icon  class="x" onclick="closeForm12()" name="close"></ion-icon></div>
+                        
+                </span>
+                <div  onclick="openForm12()">
+                 <img class="store-img" src="ressources/12.jpg">
+                 <p class="sorta">Breskev maria-bianca</p>
+                 <p class="cena">€1.20</p>
+                 <p class="zaloga">Zaloga</p>
+                 </div>  
+         </div></div>
+             <div class="span-4-of-5">
+            <div class="span-1-of-4 store popup">  
+                  <span class="popuptext" id="myPopup13" >
+                        <h2>Breskev fayete</h2>                     
+                        <div class="kg-span"><span>Kolicina v kg:</span><input class="kg" type="number" id="kolicina" value="1"></div>
+                        <div class="kg-span">Cena: <span>€6.00</span></div>
+                        <div class="potrdi"><a class="na-blagajno" href="#">potrdi</a></div>
+                        <div class="x-div"> <ion-icon  class="x" onclick="closeForm13()" name="close"></ion-icon></div>
+                        
+                  </span>
+                    <div onclick="openForm13()">         
+                         <img class="store-img" src="ressources/13.jpg">                 
+                         <p class="sorta">Breskev fayete</p>
+                         <p class="cena">€1.20</p>
+                         <p class="zaloga">Zaloga</p>
+                     </div> 
+             </div>
+             
+     </div>  
+     </div>  
+       
+
+       
+   </section>   
+   <footer>
+       <div class="row">
+           <div class="icons span-1-of-3" >
+           <li><a class="icon-a" href="https://www.facebook.com/Kmetija.Marko/?__tn__=kC-R&eid=ARCiBZxiIm-mEAui6rg10aHtWFcmQhe68rs4qF0-_rBlnXyOTMjyxSWGWgJJLfdqieP7pVz_WxFV4HzD&hc_ref=ARSAeWTr9vyiBf4CsCwTAPKSojG1JodLU6SnBvQvMCM5oVU0DnZ0UWKM6eYLUv07TS4&fref=tag&__xts__[0]=68.ARDukAvphzvSNsStXzX34VySJtJhYgYaWALbO_amdGgJUWNAZUa7KXYtuAyJS9NEdQC3atMwmqfJBlTJPqisSMvpfhtVA3WkxvY97dSE8ZIT24fEdhWmVCZqKtnyUv0s0zUXdwdBTd-RRwctkVyXH07KvWU0dz-CrEYs431FvNq5fMxCvjZJZO2NMJanFSETfWAyTSzdzRHch1rDUxWRflikkXi1IDS4orsZCE64WqlNF4WdMlvI7MnKo5giQ9CXbvmfCnzCQ_GO" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+           <li><a class="icon-a" href="https://www.google.com/maps/place/Kmetija+Marko/@46.6281984,15.6751951,17z/data=!3m1!4b1!4m5!3m4!1s0x476f758006dd2e7b:0x70dd78c91b2ede93!8m2!3d46.6281947!4d15.6773891" target="_blank"><ion-icon name="pin"></ion-icon></a></li>
+           </div>
+            <div class="naslov  span-1-of-3">
+                <p>Družinska kmetija Marko</p>
+                <p>Jeleče 26,</p>
+                <p>2211 Pesnica pri Mariboru</p>
+                <p>Tel.: <a href="tel:+386-2-653-15-41">02/653 15 41</a></p>
+                <p>e-mail: <a href="mailto:damm.marko@gmail.com">damm.marko@gmail.com</a></p>
+            </div>
+           
+       </div>
+       
+       
+       
+   </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="ressources/markoapp.js"></script>
+    <script src="ressources/popup.js"></script>
+</body>
+</html>

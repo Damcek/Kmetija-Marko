@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="ressources/style-m.css">
+    <link rel="stylesheet" type="text/css" href="ressources/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="ressources/grid.css">
+    <title>Document</title>
+</head>
+<body>
+   <header>
+       <div class="row-head">
+                <div class="cart"><a href="blagajna.html"><span class="evri">€150.25</span><ion-icon name="cart"></ion-icon></a></div>
+         <div class="logo">
+             <a class="logo-a" href="home.html"><img src="ressources/logo.jpg"></a>
+         </div>
+            <h1>Družinska kmetija Marko</h1>         
+             <nav class="nav">
+              
+                  <li ><a href="home.html">Domov</a></li>
+                  <span>/</span>
+                  <li><a href="o-kmetiji.html">O kmetiji</a></li>
+                  <span>/</span>
+                  <li><a href="ponudba.html">Ponudba</a></li>
+                  <span>/</span>
+                  <li><a class="active" href="kontakt.html">Kontakt</a></li>
+              
+          </nav>
+       </div>
+   </header>
+   <section>
+     <div class="row" style="max-width: 900px;">
+        <div class="kontakt span-1-of-2">
+           <div class="kontakt2">
+            <h2>Kontakt</h2>
+            <h3>Naš naslov:</h3>
+            <p>Družinska kmetija Marko</p>
+            <p>Jelenče 26,</p>
+            <p>2211 Pesnica pri Mariboru</p>
+            <h3>Pokličite ali pišite nam na:</h3>
+            <p>Tel.: <a  class="active" href="tel:+386-2-653-15-41">02/653 15 41</a></p>
+            <p>e-mail: <a class="active" href="mailto:damm.marko@gmail.com" target="_blank">damm.marko@gmail.com</a>
+            <p><a class="active" href="https://www.facebook.com/Kmetija.Marko/?__tn__=kC-R&eid=ARCiBZxiIm-mEAui6rg10aHtWFcmQhe68rs4qF0-_rBlnXyOTMjyxSWGWgJJLfdqieP7pVz_WxFV4HzD&hc_ref=ARSAeWTr9vyiBf4CsCwTAPKSojG1JodLU6SnBvQvMCM5oVU0DnZ0UWKM6eYLUv07TS4&fref=tag&__xts__[0]=68.ARDukAvphzvSNsStXzX34VySJtJhYgYaWALbO_amdGgJUWNAZUa7KXYtuAyJS9NEdQC3atMwmqfJBlTJPqisSMvpfhtVA3WkxvY97dSE8ZIT24fEdhWmVCZqKtnyUv0s0zUXdwdBTd-RRwctkVyXH07KvWU0dz-CrEYs431FvNq5fMxCvjZJZO2NMJanFSETfWAyTSzdzRHch1rDUxWRflikkXi1IDS4orsZCE64WqlNF4WdMlvI7MnKo5giQ9CXbvmfCnzCQ_GO" target="_blank">Naša Facebook stran</a>
+         </div>
+         </div>
+         <div class="kontakt span-1-of-2">
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: 46.628379, lng: 15.677475};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+</script>
+</div>
+         
+     </div>  
+      <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAcwq5v8jYpuHgafsxC25-f9nTHN8uPfbY&callback=initMap">
+</script>
+
+       
+   </section>
+   
+   
+   
+   <footer>
+       <div class="row">
+           <div class="icons span-1-of-3" >
+           <li><a class="icon-a" href="https://www.facebook.com/Kmetija.Marko/?__tn__=kC-R&eid=ARCiBZxiIm-mEAui6rg10aHtWFcmQhe68rs4qF0-_rBlnXyOTMjyxSWGWgJJLfdqieP7pVz_WxFV4HzD&hc_ref=ARSAeWTr9vyiBf4CsCwTAPKSojG1JodLU6SnBvQvMCM5oVU0DnZ0UWKM6eYLUv07TS4&fref=tag&__xts__[0]=68.ARDukAvphzvSNsStXzX34VySJtJhYgYaWALbO_amdGgJUWNAZUa7KXYtuAyJS9NEdQC3atMwmqfJBlTJPqisSMvpfhtVA3WkxvY97dSE8ZIT24fEdhWmVCZqKtnyUv0s0zUXdwdBTd-RRwctkVyXH07KvWU0dz-CrEYs431FvNq5fMxCvjZJZO2NMJanFSETfWAyTSzdzRHch1rDUxWRflikkXi1IDS4orsZCE64WqlNF4WdMlvI7MnKo5giQ9CXbvmfCnzCQ_GO" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+           <li><a class="icon-a" href="https://www.google.com/maps/place/Kmetija+Marko/@46.6281984,15.6751951,17z/data=!3m1!4b1!4m5!3m4!1s0x476f758006dd2e7b:0x70dd78c91b2ede93!8m2!3d46.6281947!4d15.6773891" target="_blank"><ion-icon name="pin"></ion-icon></a></li>
+           </div>
+            <div class="naslov  span-1-of-3">
+                <p>Družinska kmetija Marko</p>
+                <p>Jelenče 26,</p>
+                <p>2211 Pesnica pri Mariboru</p>
+                <p>Tel.: <a href="tel:+386-2-653-15-41">02/653 15 41</a></p>
+                <p>e-mail: <a href="mailto:damm.marko@gmail.com">damm.marko@gmail.com</a></p>
+            </div>
+           
+       </div>
+       
+       
+       
+   </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script
+</body>
+</html>
